@@ -16,7 +16,7 @@ In the [website directory](website/) there are four files:
 
 To create the website stack.
 
-[<img src="https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png">](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=myteststack&templateURL=https://awscomputeblogimages.s3-us-west-2.amazonaws.com/samfarm-website.yaml)
+[<img src="https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png">](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=myteststack&templateURL=https://s3.amazonaws.com/pmd-serverless-pipeline-files/website.yaml)
 
 Once the stack is complete, we will need to keep track of the S3 bucket name and the URL for the website. 
 
@@ -61,7 +61,7 @@ The CloudFormation templates being used to create these resources can be found i
 
 To create the pipeline stack, click the launch stack button below.
 
-[<img src="https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png">](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=myteststack&templateURL=https://awscomputeblogimages.s3-us-west-2.amazonaws.com/samfarm-main.yaml)
+[<img src="https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png">](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=myteststack&templateURL=https://s3.amazonaws.com/pmd-serverless-pipeline-files/main.yaml)
 
 ## Step 4
 ### Update your website
